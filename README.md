@@ -43,47 +43,6 @@ A modern, full-stack task management application powered by intelligent AI assis
 
 ---
 
-## Project Structure
-
-```
-ToDoList/
-├── backend/                 # FastAPI backend application
-│   ├── app/
-│   │   ├── __init__.py
-│   │   ├── main.py         # Main FastAPI application entry point
-│   │   ├── auth.py         # Authentication and JWT logic
-│   │   ├── config.py       # Configuration settings
-│   │   ├── database.py     # MongoDB connection management
-│   │   ├── models.py       # Pydantic models and serializers
-│   │   ├── mail.py         # Email utilities
-│   │   ├── scheduler.py    # Task scheduling with APScheduler
-│   │   └── agent/          # AI Agent implementation
-│   │       ├── __init__.py
-│   │       ├── graph.py    # LangGraph agent workflow
-│   │       ├── prompts.py  # Agent prompts and templates
-│   │       └── tools.py    # Agent tools definition
-│   ├── requirements.txt     # Python dependencies
-│   └── .env               # Environment configuration (not in repo)
-│
-├── frontend/                # React + Vite frontend application
-│   ├── src/
-│   │   ├── main.jsx        # React entry point
-│   │   ├── App.jsx         # Main application component
-│   │   ├── App.css
-│   │   ├── index.css
-│   │   └── assets/         # Static assets
-│   ├── public/             # Public assets
-│   ├── package.json        # Node dependencies
-│   ├── vite.config.js      # Vite configuration
-│   ├── eslint.config.js    # ESLint configuration
-│   ├── index.html          # HTML entry point
-│   └── README.md           # Frontend documentation
-│
-├── README.md               # This file
-└── .gitignore             # Git ignore rules
-```
-
----
 
 ## Installation & Setup
 
